@@ -1,6 +1,8 @@
 import express from "express";
 import cors from "cors";
 import "dotenv/config";
+import helmet from "helmet";
+import compression from "compression";
 import connectDB from "./config/mongodb.js";
 import connectCloudinery from "./config/cloudinery.js";
 import adminRouter from "./routes/adminRoute.js";
