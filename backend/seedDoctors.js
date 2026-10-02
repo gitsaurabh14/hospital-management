@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import doctorModel from "./models/doctorModel.js"; // adjust the path if needed
+import doctorModel from "./models/doctorModel.js"; 
 import bcrypt from "bcrypt";
 
 // Load environment variables
